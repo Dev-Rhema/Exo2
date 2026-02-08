@@ -37,21 +37,14 @@ const Hero = () => {
         <h1 className="text-5xl md:text-7xl max-md:text-4xl font-black leading-[1.1] mb-6 tracking-tight text-primary">
           Turn Paid Ads Into a Predictable Customer Pipeline
         </h1>
-
-        {/* <a
-          href="#"
-          className="inline-block bg-accent text-white px-8 max-md:px-4 max-md:px-4 py-3.5 rounded-md font-semibold text-[15px] hover:bg-accent-dark transition-all duration-300 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-accent/30"
-        >
-          Book a Free Strategy Call
-        </a> */}
       </div>
       <div className="max-w-5xl mx-auto">
-        <div className="text-center mb-14">
-          <h2 className="text-4xl md:text-5xl max-md:text-2xl font-extrabold mb-6 tracking-tight text-primary">
-            How Exodigital Approaches Paid Ads
+        <div className="text-center mb-14 max-lg:mb-10">
+          <h2 className="text-4xl md:text-5xl max-md:text-2xl font-extrabold mb-4 tracking-tight text-primary">
+            Your Ads Should Print Customers, Not Burn Cash
           </h2>
-          <p className="text-lg max-md:text-sm text-gray-600 leading-relaxed">
-            If you want to understand how we think about customer acquisition,
+          <p className="text-lg  text-gray-600 leading-relaxed">
+            If you want to understand how to think about customer acquisition,
             ad testing, and scaling, watch this short breakdown.
           </p>
         </div>
@@ -67,7 +60,7 @@ const Hero = () => {
             allowFullScreen
           ></iframe>
         </div>
-        <div className="text-center mt-12">
+        <div className="text-center mt-12 max-lg:mt-6">
           <a
             href="#"
             className="inline-block bg-accent text-white px-8 max-md:px-4 py-3.5 rounded-md font-semibold text-[15px] hover:bg-accent-dark transition-all duration-300 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-accent/30"
@@ -75,7 +68,7 @@ const Hero = () => {
             Book a Free Strategy Call
           </a>
         </div>
-        <p className="text-xl max-md:text-base  text-gray-600 mb-10">
+        <p className="text-xl max-md:text-base  text-gray-600 my-4">
           We'll review your offer and see if this makes sense.
         </p>
       </div>
@@ -91,7 +84,7 @@ const StopGuessing = () => {
   };
 
   return (
-    <section className="py-20 max-md:py-10 px-8 max-md:px-4">
+    <section className="py-20 max-md:py-8 px-8 max-md:px-4 ">
       <div className="max-w-5xl mx-auto">
         <div className="text-center max-w-4xl mx-auto mb-14">
           <h2 className="text-4xl md:text-5xl max-md:text-2xl font-extrabold mb-6 tracking-tight text-primary">
