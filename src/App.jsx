@@ -623,12 +623,12 @@ function App() {
     <div className="min-h-screen bg-white">
       <Navigation />
       <Hero />
+      <VideoSection />
       <StopGuessing />
       <ForNotFor />
       <CoreProblem />
       <Approach />
       <WhatClientsGet />
-      <VideoSection />
       <HowItWorks />
       <WhyPaidAds />
       <CaseStudies />
