@@ -10,7 +10,7 @@ const Navigation = () => {
   return (
     <nav className="fixed top-0 left-0 right-0 bg-white/98 backdrop-blur-lg border-b border-gray-200 z-50">
       <div className="max-w-7xl mx-auto px-8  py-5 flex justify-between items-center max-md:px-4">
-        <div className="text-4xl font-extrabold text-accent tracking-tight">
+        <div className="text-4xl max-md:text-2xl font-extrabold text-accent tracking-tight">
           Exodigital
         </div>
         <a
@@ -33,12 +33,12 @@ const Hero = () => {
   };
 
   return (
-    <section className="pt-40 pb-24 px-8 max-md:px-4  text-center bg-white max-md:px-4">
+    <section className="pt-40 max-md:pt-28 pb-24 max-md:pb-12 px-8  text-center bg-white max-md:px-4">
       <div className="max-w-5xl mx-auto">
-        <h1 className="text-5xl md:text-7xl font-black leading-[1.1] mb-6 tracking-tight text-primary">
+        <h1 className="text-5xl md:text-7xl max-md:text-4xl font-black leading-[1.1] mb-6 tracking-tight text-primary">
           Turn Paid Ads Into a Predictable Customer Pipeline
         </h1>
-        <p className="text-xl text-gray-600 mb-10">
+        <p className="text-xl max-md:text-base  text-gray-600 mb-10">
           We'll review your offer and see if this makes sense.
         </p>
         <a
@@ -61,18 +61,18 @@ const StopGuessing = () => {
   };
 
   return (
-    <section className="py-20 px-8 max-md:px-4">
+    <section className="py-20 max-md:py-10 px-8 max-md:px-4">
       <div className="max-w-5xl mx-auto">
         <div className="text-center max-w-4xl mx-auto mb-14">
-          <h2 className="text-4xl md:text-5xl font-extrabold mb-6 tracking-tight text-primary">
+          <h2 className="text-4xl md:text-5xl max-md:text-2xl font-extrabold mb-6 tracking-tight text-primary">
             Stop Guessing Where Your Next Customer Is Coming From
           </h2>
-          <p className="text-lg text-gray-600 leading-relaxed mb-6">
+          <p className="text-lg max-md:text-sm text-gray-600 leading-relaxed mb-6">
             If you have a solid product but your revenue still feels
             unpredictable, the problem isn't your offer, it's how customers find
             you.
           </p>
-          <p className="text-lg text-gray-600 leading-relaxed">
+          <p className="text-lg max-md:text-sm text-gray-600 leading-relaxed">
             Exodigital helps business owners turn paid ads into a reliable
             stream of leads, users, and sales, without relying on referrals or
             hope.
@@ -100,17 +100,17 @@ const StopGuessing = () => {
 // For/Not For Section
 const ForNotFor = () => {
   return (
-    <section className="py-20 px-8 max-md:px-4 bg-gray-50">
+    <section className="py-20 max-md:py-10 px-8 max-md:px-4 bg-gray-50">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-14">
-          <h2 className="text-4xl md:text-5xl font-extrabold tracking-tight text-primary">
+          <h2 className="text-4xl md:text-5xl max-md:text-2xl font-extrabold tracking-tight text-primary">
             Who This Is For / Not For
           </h2>
         </div>
         <div className="grid md:grid-cols-2 gap-10">
           {/* For You */}
           <div className="bg-white border-2 border-gray-200 rounded-xl p-10 shadow-md max-lg:p-6">
-            <h3 className="text-3xl font-extrabold mb-8 text-green-600">
+            <h3 className="text-3xl max-md:text-xl font-extrabold mb-8 text-green-600">
               This is for you if:
             </h3>
             <ul className="space-y-0">
@@ -151,7 +151,7 @@ const ForNotFor = () => {
 
           {/* Not For */}
           <div className="bg-white border-2 border-gray-200 rounded-xl p-10 shadow-md max-lg:p-6">
-            <h3 className="text-3xl font-extrabold mb-8 text-red-500">
+            <h3 className="text-3xl max-md:text-xl font-extrabold mb-8 text-red-500">
               This is NOT for:
             </h3>
             <ul className="space-y-0">
@@ -190,22 +190,22 @@ const ForNotFor = () => {
 // Core Problem Section
 const CoreProblem = () => {
   return (
-    <section className="py-20 px-8 max-md:px-4">
+    <section className="py-20 max-md:py-10 px-8 max-md:px-4">
       <div className="max-w-6xl mx-auto">
         <div className="text-center max-w-3xl mx-auto mb-14">
-          <h2 className="text-4xl md:text-5xl font-extrabold mb-6 tracking-tight text-primary">
+          <h2 className="text-4xl md:text-5xl max-md:text-2xl font-extrabold mb-6 tracking-tight text-primary">
             The Core Problem
           </h2>
-          <p className="text-lg text-gray-600 leading-relaxed mb-4">
+          <p className="text-lg max-md:text-sm text-gray-600 leading-relaxed mb-4">
             Most business owners don't actually have a product problem.
           </p>
-          <p className="text-lg font-semibold text-primary">
+          <p className="text-lg max-md:text-sm font-semibold text-primary">
             They have a customer acquisition problem.
           </p>
         </div>
         <div className="grid md:grid-cols-3 gap-8">
           <div className="border-2 border-gray-200 rounded-xl p-8 max-md:p-6 shadow-md">
-            <h4 className="text-xl font-bold mb-4 text-primary">
+            <h4 className="text-xl max-md:text-base font-bold mb-4 text-primary">
               You may already have:
             </h4>
             <p className="text-gray-600 leading-relaxed">
@@ -217,7 +217,9 @@ const CoreProblem = () => {
             </p>
           </div>
           <div className="border-2 border-gray-200 rounded-xl p-8 max-md:p-6 shadow-md">
-            <h4 className="text-xl font-bold mb-4 text-primary">Yet:</h4>
+            <h4 className="text-xl max-md:text-base font-bold mb-4 text-primary">
+              Yet:
+            </h4>
             <p className="text-gray-600 leading-relaxed">
               Leads aren't consistent
               <br />
@@ -227,7 +229,9 @@ const CoreProblem = () => {
             </p>
           </div>
           <div className="border-2 border-gray-200 rounded-xl p-8 max-md:p-6 shadow-md">
-            <h4 className="text-xl font-bold mb-4 text-primary">The Result:</h4>
+            <h4 className="text-xl max-md:text-base font-bold mb-4 text-primary">
+              The Result:
+            </h4>
             <p className="text-gray-600 leading-relaxed">
               Without a reliable acquisition system, revenue becomes
               unpredictable and that uncertainty slows everything down.
@@ -242,23 +246,23 @@ const CoreProblem = () => {
 // Approach Section
 const Approach = () => {
   return (
-    <section className="py-20 px-8 max-md:px-4 bg-gray-50">
+    <section className="py-20 max-md:py-10 px-8 max-md:px-4 bg-gray-50">
       <div className="max-w-5xl mx-auto">
         <div className="text-center mb-14">
-          <h2 className="text-4xl md:text-5xl font-extrabold mb-6 tracking-tight text-primary">
+          <h2 className="text-4xl md:text-5xl max-md:text-2xl font-extrabold mb-6 tracking-tight text-primary">
             The Exodigital Approach
           </h2>
-          <p className="text-xl font-semibold text-primary mb-6">
+          <p className="text-xl max-md:text-base font-semibold text-primary mb-6">
             Paid Ads Built for Real Customers
           </p>
         </div>
-        <p className="text-center text-lg text-gray-600 leading-relaxed max-w-4xl mx-auto mb-8">
+        <p className="text-center text-lg max-md:text-sm text-gray-600 leading-relaxed max-w-4xl mx-auto mb-8">
           Exodigital runs paid advertising systems designed to bring in hot
           leads, active users, and paying customers. Instead of hoping people
           find you, we place your offer directly in front of the right audience
           using ads built to convert, not just generate clicks.
         </p>
-        <p className="text-center text-lg text-gray-600 leading-relaxed max-w-4xl mx-auto">
+        <p className="text-center text-lg max-md:text-sm text-gray-600 leading-relaxed max-w-4xl mx-auto">
           This isn't just theory. It's execution, testing, and optimization.
         </p>
       </div>
@@ -269,31 +273,33 @@ const Approach = () => {
 // What Clients Get Section
 const WhatClientsGet = () => {
   return (
-    <section className="py-20 px-8 max-md:px-4">
+    <section className="py-20 max-md:py-10 px-8 max-md:px-4">
       <div className="max-w-5xl mx-auto">
         <div className="text-center mb-14">
-          <h2 className="text-4xl md:text-5xl font-extrabold mb-6 tracking-tight text-primary">
+          <h2 className="text-4xl md:text-5xl max-md:text-2xl font-extrabold mb-6 tracking-tight text-primary">
             What Clients Get
           </h2>
-          <p className="text-lg text-gray-600">
+          <p className="text-lg max-md:text-sm text-gray-600">
             When you work with Exodigital, clients typically see:
           </p>
         </div>
         <div className="max-w-4xl mx-auto space-y-6">
           <div className="border-2 border-gray-200 rounded-xl p-10 max-md:p-6 hover:border-accent transition-all duration-300 hover:shadow-md shadow-md">
-            <h3 className="text-2xl font-bold mb-3 text-primary">Hot leads</h3>
+            <h3 className="text-2xl max-md:text-lg font-bold mb-3 text-primary">
+              Hot leads
+            </h3>
             <p className="text-gray-600 leading-relaxed">
               people actively interested in what you offer
             </p>
           </div>
           <div className="border-2 border-gray-200 rounded-xl p-10 max-md:p-6 hover:border-accent transition-all duration-300 hover:shadow-md shadow-md">
-            <h3 className="text-2xl font-bold mb-3 text-primary">
+            <h3 className="text-2xl max-md:text-lg font-bold mb-3 text-primary">
               More users and loyal customers
             </h3>
             <p className="text-gray-600 leading-relaxed">not just traffic</p>
           </div>
           <div className="border-2 border-gray-200 rounded-xl p-10 max-md:p-6 hover:border-accent transition-all duration-300 hover:shadow-md shadow-md">
-            <h3 className="text-2xl font-bold mb-3 text-primary">
+            <h3 className="text-2xl max-md:text-lg font-bold mb-3 text-primary">
               More sales and engagement
             </h3>
             <p className="text-gray-600 leading-relaxed">
@@ -301,7 +307,7 @@ const WhatClientsGet = () => {
             </p>
           </div>
         </div>
-        <p className="text-center mt-12 text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">
+        <p className="text-center mt-12 text-lg max-md:text-sm text-gray-600 max-w-3xl mx-auto leading-relaxed">
           No inflated promises.
           <br />
           No fake guarantees.
@@ -322,13 +328,13 @@ const VideoSection = () => {
   };
 
   return (
-    <section className="py-20 px-8 max-md:px-4 bg-gray-50">
+    <section className="py-20 max-md:py-10 px-8 max-md:px-4 bg-gray-50">
       <div className="max-w-5xl mx-auto">
         <div className="text-center mb-14">
-          <h2 className="text-4xl md:text-5xl font-extrabold mb-6 tracking-tight text-primary">
+          <h2 className="text-4xl md:text-5xl max-md:text-2xl font-extrabold mb-6 tracking-tight text-primary">
             How Exodigital Approaches Paid Ads
           </h2>
-          <p className="text-lg text-gray-600 leading-relaxed">
+          <p className="text-lg max-md:text-sm text-gray-600 leading-relaxed">
             If you want to understand how we think about customer acquisition,
             ad testing, and scaling, watch this short breakdown.
           </p>
@@ -388,10 +394,10 @@ const HowItWorks = () => {
   ];
 
   return (
-    <section className="py-20 px-8 max-md:px-4">
+    <section className="py-20 max-md:py-10 px-8 max-md:px-4">
       <div className="max-w-5xl mx-auto">
         <div className="text-center mb-14">
-          <h2 className="text-4xl md:text-5xl font-extrabold tracking-tight text-primary">
+          <h2 className="text-4xl md:text-5xl max-md:text-2xl font-extrabold tracking-tight text-primary">
             How It Works
           </h2>
         </div>
@@ -405,10 +411,10 @@ const HowItWorks = () => {
                 {step.number}
               </div>
               <div className="flex-1 pt-2">
-                <h3 className="text-2xl font-bold mb-3 text-primary">
+                <h3 className="text-2xl max-md:text-lg font-bold mb-3 text-primary">
                   {step.title}
                 </h3>
-                <p className="text-lg text-gray-600 leading-relaxed">
+                <p className="text-lg max-md:text-sm text-gray-600 leading-relaxed">
                   {step.description}
                 </p>
               </div>
@@ -444,13 +450,13 @@ const WhyPaidAds = () => {
   ];
 
   return (
-    <section className="py-20 px-8 max-md:px-4 bg-gray-50">
+    <section className="py-20 max-md:py-10 px-8 max-md:px-4 bg-gray-50">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-14">
-          <h2 className="text-4xl md:text-5xl font-extrabold mb-6 tracking-tight text-primary">
+          <h2 className="text-4xl md:text-5xl max-md:text-2xl font-extrabold mb-6 tracking-tight text-primary">
             Why Paid Ads?
           </h2>
-          <p className="text-lg text-gray-600">
+          <p className="text-lg max-md:text-sm text-gray-600">
             Referrals are unpredictable. Organic growth takes time.
           </p>
         </div>
@@ -463,7 +469,7 @@ const WhyPaidAds = () => {
               <div className="w-24 h-24 bg-accent rounded-full flex items-center justify-center text-left text-white text-5xl font-black  mb-6">
                 {benefit.letter}
               </div>
-              <h3 className="text-2xl font-bold mb-4 text-primary">
+              <h3 className="text-2xl max-md:text-lg font-bold mb-4 text-primary">
                 {benefit.title}
               </h3>
               <p className="text-gray-600 leading-relaxed">
@@ -472,7 +478,7 @@ const WhyPaidAds = () => {
             </div>
           ))}
         </div>
-        <p className="text-center mt-12 text-xl font-semibold text-primary max-w-3xl mx-auto">
+        <p className="text-center mt-12 text-xl max-md:text-base font-semibold text-primary max-w-3xl mx-auto">
           When done properly, ads stop being an expense — and start becoming a
           growth engine.
         </p>
@@ -512,22 +518,22 @@ const CaseStudies = () => {
   ];
 
   return (
-    <section className="py-20 px-8 max-md:px-4">
+    <section className="py-20 max-md:py-10 px-8 max-md:px-4">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-14">
-          <h2 className="text-4xl md:text-5xl font-extrabold mb-6 tracking-tight text-primary">
+          <h2 className="text-4xl md:text-5xl max-md:text-2xl font-extrabold mb-6 tracking-tight text-primary">
             Results Depend on the Business
           </h2>
-          <p className="text-lg text-gray-600 mb-12">
+          <p className="text-lg max-md:text-sm text-gray-600 mb-12">
             Every business is different. We don't believe in copy-paste outcomes
             or blanket promises.
           </p>
         </div>
         <div className="max-w-3xl mx-auto text-left mb-14">
-          <h3 className="text-xl font-bold mb-6 text-primary">
+          <h3 className="text-xl max-md:text-base font-bold mb-6 text-primary">
             What we focus on:
           </h3>
-          <ul className="space-y-3 text-lg text-gray-600 list-inside list-disc">
+          <ul className="space-y-3 text-lg max-md:text-sm text-gray-600 list-inside list-disc">
             <li>Bringing in hot leads</li>
             <li>Increasing user adoption</li>
             <li>Improving sales and engagement through paid ads</li>
@@ -539,7 +545,7 @@ const CaseStudies = () => {
               key={casee.id}
               className="border-2 border-gray-200 rounded-xl overflow-hidden shadow-md"
             >
-              <div className="bg-gradient-to-br from-accent to-accent-dark h-56 flex items-center justify-center text-white text-2xl font-bold">
+              <div className="bg-gradient-to-br from-accent to-accent-dark h-56 flex items-center justify-center text-white text-2xl max-md:text-lg font-bold">
                 {casee.title}
               </div>
               <div className="p-8">
@@ -569,13 +575,13 @@ const FinalCTA = () => {
   return (
     <section
       id="cta"
-      className="py-28 px-8 max-md:px-4 bg-gray-50 border-t-4 border-accent"
+      className="py-28 max-md:py-14 px-8 max-md:px-4 bg-gray-50 border-t-4 border-accent"
     >
       <div className="max-w-4xl mx-auto text-center">
-        <h2 className="text-4xl md:text-5xl font-extrabold mb-6 tracking-tight text-primary">
+        <h2 className="text-4xl md:text-5xl max-md:text-2xl font-extrabold mb-6 tracking-tight text-primary">
           Are you ready to stop guessing?
         </h2>
-        <p className="text-xl text-gray-600 mb-10">
+        <p className="text-xl max-md:text-base text-gray-600 mb-10">
           If you're done with unpredictable revenue and want a clearer path to
           customers:
         </p>
@@ -585,7 +591,7 @@ const FinalCTA = () => {
         >
           Book a Free Strategy Call
         </a>
-        <p className="text-base text-gray-500 italic mt-6">
+        <p className="text-base max-md:text-sm text-gray-500 italic mt-6">
           We'll review your offer, your goals, and see if this makes sense
           before anything else.
         </p>
@@ -597,8 +603,10 @@ const FinalCTA = () => {
 // Footer Component
 const Footer = () => {
   return (
-    <footer className="bg-primary text-white py-12 px-8 max-md:px-4 text-center">
-      <div className="text-3xl font-extrabold mb-3">Exodigital</div>
+    <footer className="bg-primary text-white py-12 max-md:py-8 px-8 max-md:px-4 text-center">
+      <div className="text-3xl max-md:text-xl font-extrabold mb-3">
+        Exodigital
+      </div>
       <div className="text-base opacity-80 mb-2">
         Paid Advertising & Customer Acquisition
       </div>
