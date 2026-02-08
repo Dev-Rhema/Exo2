@@ -14,8 +14,7 @@ const Navigation = () => {
           Exodigital
         </div>
         <a
-          href="#cta"
-          onClick={scrollToCTA}
+          href="#"
           className="bg-accent text-white px-8  max-md:px-4 py-3.5 rounded-md font-semibold text-[15px] hover:bg-accent-dark transition-all duration-300 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-accent/30"
         >
           Book a Free Strategy Call
@@ -38,16 +37,47 @@ const Hero = () => {
         <h1 className="text-5xl md:text-7xl max-md:text-4xl font-black leading-[1.1] mb-6 tracking-tight text-primary">
           Turn Paid Ads Into a Predictable Customer Pipeline
         </h1>
-        <p className="text-xl max-md:text-base  text-gray-600 mb-10">
-          We'll review your offer and see if this makes sense.
-        </p>
-        <a
-          href="#cta"
-          onClick={scrollToCTA}
+
+        {/* <a
+          href="#"
           className="inline-block bg-accent text-white px-8 max-md:px-4 max-md:px-4 py-3.5 rounded-md font-semibold text-[15px] hover:bg-accent-dark transition-all duration-300 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-accent/30"
         >
           Book a Free Strategy Call
-        </a>
+        </a> */}
+      </div>
+      <div className="max-w-5xl mx-auto">
+        <div className="text-center mb-14">
+          <h2 className="text-4xl md:text-5xl max-md:text-2xl font-extrabold mb-6 tracking-tight text-primary">
+            How Exodigital Approaches Paid Ads
+          </h2>
+          <p className="text-lg max-md:text-sm text-gray-600 leading-relaxed">
+            If you want to understand how we think about customer acquisition,
+            ad testing, and scaling, watch this short breakdown.
+          </p>
+        </div>
+        <div className="max-w-4xl mx-auto border-[3px] border-dashed border-gray-300 rounded-xl p-2 text-center bg-white shadow-md">
+          <iframe
+            className="w-full rounded-xl h-[400px] max-md:h-[300px]"
+            width=""
+            src="https://www.youtube.com/embed/tYZi9ugG7Gk?si=dS1b5yqtFKNryewz"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          ></iframe>
+        </div>
+        <div className="text-center mt-12">
+          <a
+            href="#"
+            className="inline-block bg-accent text-white px-8 max-md:px-4 py-3.5 rounded-md font-semibold text-[15px] hover:bg-accent-dark transition-all duration-300 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-accent/30"
+          >
+            Book a Free Strategy Call
+          </a>
+        </div>
+        <p className="text-xl max-md:text-base  text-gray-600 mb-10">
+          We'll review your offer and see if this makes sense.
+        </p>
       </div>
     </section>
   );
@@ -80,8 +110,7 @@ const StopGuessing = () => {
         </div>
         <div className="text-center">
           <a
-            href="#cta"
-            onClick={scrollToCTA}
+            href="#"
             className="inline-block bg-accent text-white px-8 max-md:px-4 py-3.5 rounded-md font-semibold text-[15px] hover:bg-accent-dark transition-all duration-300 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-accent/30"
           >
             Book a Free Strategy Call
@@ -321,49 +350,49 @@ const WhatClientsGet = () => {
 };
 
 // Video Section
-const VideoSection = () => {
-  const scrollToCTA = (e) => {
-    e.preventDefault();
-    document.getElementById("cta")?.scrollIntoView({ behavior: "smooth" });
-  };
+// const VideoSection = () => {
+//   const scrollToCTA = (e) => {
+//     e.preventDefault();
+//     document.getElementById("cta")?.scrollIntoView({ behavior: "smooth" });
+//   };
 
-  return (
-    <section className="py-20 max-md:py-10 px-8 max-md:px-4 bg-gray-50">
-      <div className="max-w-5xl mx-auto">
-        <div className="text-center mb-14">
-          <h2 className="text-4xl md:text-5xl max-md:text-2xl font-extrabold mb-6 tracking-tight text-primary">
-            How Exodigital Approaches Paid Ads
-          </h2>
-          <p className="text-lg max-md:text-sm text-gray-600 leading-relaxed">
-            If you want to understand how we think about customer acquisition,
-            ad testing, and scaling, watch this short breakdown.
-          </p>
-        </div>
-        <div className="max-w-4xl mx-auto border-[3px] border-dashed border-gray-300 rounded-xl p-2 text-center bg-white shadow-md">
-          <iframe
-            className="w-full rounded-xl h-[400px] max-md:h-[300px]"
-            width=""
-            src="https://www.youtube.com/embed/tYZi9ugG7Gk?si=dS1b5yqtFKNryewz"
-            title="YouTube video player"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerPolicy="strict-origin-when-cross-origin"
-            allowFullScreen
-          ></iframe>
-        </div>
-        <div className="text-center mt-12">
-          <a
-            href="#cta"
-            onClick={scrollToCTA}
-            className="inline-block bg-accent text-white px-8 max-md:px-4 py-3.5 rounded-md font-semibold text-[15px] hover:bg-accent-dark transition-all duration-300 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-accent/30"
-          >
-            Book a Free Strategy Call
-          </a>
-        </div>
-      </div>
-    </section>
-  );
-};
+//   return (
+//     <section className="py-20 max-md:py-10 px-8 max-md:px-4 bg-gray-50">
+//       <div className="max-w-5xl mx-auto">
+//         <div className="text-center mb-14">
+//           <h2 className="text-4xl md:text-5xl max-md:text-2xl font-extrabold mb-6 tracking-tight text-primary">
+//             How Exodigital Approaches Paid Ads
+//           </h2>
+//           <p className="text-lg max-md:text-sm text-gray-600 leading-relaxed">
+//             If you want to understand how we think about customer acquisition,
+//             ad testing, and scaling, watch this short breakdown.
+//           </p>
+//         </div>
+//         <div className="max-w-4xl mx-auto border-[3px] border-dashed border-gray-300 rounded-xl p-2 text-center bg-white shadow-md">
+//           <iframe
+//             className="w-full rounded-xl h-[400px] max-md:h-[300px]"
+//             width=""
+//             src="https://www.youtube.com/embed/tYZi9ugG7Gk?si=dS1b5yqtFKNryewz"
+//             title="YouTube video player"
+//             frameBorder="0"
+//             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+//             referrerPolicy="strict-origin-when-cross-origin"
+//             allowFullScreen
+//           ></iframe>
+//         </div>
+//         <div className="text-center mt-12">
+//           <a
+//             href="#cta"
+//             onClick={scrollToCTA}
+//             className="inline-block bg-accent text-white px-8 max-md:px-4 py-3.5 rounded-md font-semibold text-[15px] hover:bg-accent-dark transition-all duration-300 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-accent/30"
+//           >
+//             Book a Free Strategy Call
+//           </a>
+//         </div>
+//       </div>
+//     </section>
+//   );
+// };
 
 // How It Works Section
 const HowItWorks = () => {
@@ -558,8 +587,7 @@ const CaseStudies = () => {
         </div>
         <div className="text-center mt-12">
           <a
-            href="#cta"
-            onClick={scrollToCTA}
+            href="#"
             className="inline-block bg-accent text-white px-8 max-md:px-4 py-3.5 rounded-md font-semibold text-[15px] hover:bg-accent-dark transition-all duration-300 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-accent/30"
           >
             Book a Free Strategy Call
@@ -623,7 +651,7 @@ function App() {
     <div className="min-h-screen bg-white">
       <Navigation />
       <Hero />
-      <VideoSection />
+      {/* <VideoSection /> */}
       <StopGuessing />
       <ForNotFor />
       <CoreProblem />
