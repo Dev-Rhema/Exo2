@@ -7,7 +7,7 @@ import founder from "./assets/founder.jpeg";
 // Reusable CTA Button Component
 const CTAButton = ({ text = "Book a Free Strategy Call", className = "" }) => (
   <a
-    href="https://booking.exodigital.org"
+    href="https://calendar.app.google/F6iUMrvzktDXiyY66"
     target="_blank"
     rel="noopener noreferrer"
     className={`inline-block bg-accent text-white px-8 max-md:px-4 py-3.5 rounded-md font-semibold text-[15px] hover:bg-accent-dark transition-all duration-300 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-accent/30 ${className}`}
@@ -25,7 +25,7 @@ const Navigation = () => {
           Exodigital
         </div>
         <a
-          href="https://booking.exodigital.org"
+          href="https://calendar.app.google/F6iUMrvzktDXiyY66"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-accent text-white px-6 max-md:px-3 py-2.5 max-md:py-2 rounded-md font-semibold text-[15px] max-md:text-sm hover:bg-accent-dark transition-all duration-300 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-accent/30 whitespace-nowrap flex-shrink-0"
