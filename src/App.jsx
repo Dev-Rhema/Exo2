@@ -216,13 +216,13 @@ const ForNotFor = () => {
         </div>
         <div className="grid md:grid-cols-2 gap-10">
           {/* For You */}
-          <div className="bg-white border-2 border-green-500 rounded-xl p-10 shadow-md max-lg:p-6">
-            <h3 className="text-3xl max-md:text-xl font-extrabold mb-8 text-green-600">
+          <div className="bg-white border-2 border-gray-200 rounded-xl p-10 shadow-md max-lg:p-6">
+            <h3 className="text-3xl max-md:text-xl font-extrabold mb-8 text-accent">
               This is for you if:
             </h3>
             <ul className="space-y-0">
               <li className="flex items-start gap-4 py-4 border-b border-gray-200">
-                <span className="text-green-600 font-bold text-xl flex-shrink-0">
+                <span className="text-accent font-bold text-xl flex-shrink-0">
                   ✓
                 </span>
                 <span className="text-[15px] leading-relaxed">
@@ -230,7 +230,7 @@ const ForNotFor = () => {
                 </span>
               </li>
               <li className="flex items-start gap-4 py-4 border-b border-gray-200">
-                <span className="text-green-600 font-bold text-xl flex-shrink-0">
+                <span className="text-accent font-bold text-xl flex-shrink-0">
                   ✓
                 </span>
                 <span className="text-[15px] leading-relaxed">
@@ -238,7 +238,7 @@ const ForNotFor = () => {
                 </span>
               </li>
               <li className="flex items-start gap-4 py-4 border-b border-gray-200">
-                <span className="text-green-600 font-bold text-xl flex-shrink-0">
+                <span className="text-accent font-bold text-xl flex-shrink-0">
                   ✓
                 </span>
                 <span className="text-[15px] leading-relaxed">
@@ -247,7 +247,7 @@ const ForNotFor = () => {
                 </span>
               </li>
               <li className="flex items-start gap-4 py-4 border-b border-gray-200">
-                <span className="text-green-600 font-bold text-xl flex-shrink-0">
+                <span className="text-accent font-bold text-xl flex-shrink-0">
                   ✓
                 </span>
                 <span className="text-[15px] leading-relaxed">
@@ -255,7 +255,7 @@ const ForNotFor = () => {
                 </span>
               </li>
               <li className="flex items-start gap-4 py-4">
-                <span className="text-green-600 font-bold text-xl flex-shrink-0">
+                <span className="text-accent font-bold text-xl flex-shrink-0">
                   ✓
                 </span>
                 <span className="text-[15px] leading-relaxed">
@@ -267,7 +267,7 @@ const ForNotFor = () => {
           </div>
 
           {/* Not For */}
-          <div className="bg-white border-2 border-accent rounded-xl p-10 shadow-md max-lg:p-6">
+          <div className="bg-white border-2 border-gray-200 rounded-xl p-10 shadow-md max-lg:p-6">
             <h3 className="text-3xl max-md:text-xl font-extrabold mb-8 text-accent">
               This is NOT for:
             </h3>
