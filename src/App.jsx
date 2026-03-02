@@ -1,4 +1,5 @@
 import React from "react";
+import logo from "./assets/exodigital-logo.png";
 import fintechDash from "./assets/fintechDash.jpeg";
 import saas1 from "./assets/SaaS1.jpeg";
 import saas2 from "./assets/saas2.jpeg";
@@ -50,9 +51,11 @@ const BulletItem = ({ children }) => (
 const Navigation = () => (
   <nav className="fixed top-0 left-0 right-0 bg-white/98 backdrop-blur-lg border-b border-gray-200 z-50">
     <div className="max-w-7xl mx-auto px-8 py-5 flex justify-between items-center max-md:px-4 gap-4">
-      <div className="text-4xl max-md:text-2xl font-extrabold text-accent tracking-tight flex-shrink-0">
-        Exodigital
-      </div>
+      <img
+        src={logo}
+        alt="Exodigital"
+        className="h-12 max-md:h-9 w-auto flex-shrink-0"
+      />
       <a
         href="https://calendar.app.google/F6iUMrvzktDXiyY66"
         target="_blank"
