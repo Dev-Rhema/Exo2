@@ -3,7 +3,7 @@ import logo from "./assets/exodigital-logo.png";
 import fintechDash from "./assets/fintechDash.jpeg";
 import saas1 from "./assets/SaaS1.jpeg";
 import saas2 from "./assets/saas2.jpeg";
-import founder from "./assets/founder.jpeg";
+import founder from "./assets/founder.jpg";
 import { VimeoPlayer } from "./Iframe";
 
 const CTAButton = ({ text = "Book a Free Strategy Call", className = "" }) => (
@@ -347,8 +347,8 @@ const FounderSection = () => (
   <section className="py-20 max-md:py-10 px-8 max-md:px-4 bg-gray-50">
     <div className="max-w-4xl mx-auto">
       <SectionHeader title="Who's Behind This?" />
-      <div className="bg-white border-2 border-gray-200 rounded-xl p-10 shadow-md max-lg:p-6">
-        <div className="mb-8 bg-gray-100 rounded-lg overflow-hidden shadow-md max-w-md mx-auto">
+      <div className="bg-white border-2 flex gap-6 max-lg:flex-col max-md:gap-2 border-gray-200 rounded-xl p-10 shadow-md max-lg:p-6">
+        <div className="mb-8 bg-gray-100 rounded-lg overflow-hidden shadow-md max-w-xs mx-auto">
           <img
             src={founder}
             alt="Ebuka Chidube, Founder of Exodigital"
